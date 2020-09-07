@@ -21,6 +21,14 @@ io.on('connection', function (socket) {
         console.log('joined room  ' + room)
     });
 
+    socket.on('message', function (data,toRoom) {
+        if (toRoom.length > 1){
+            socket.to(toRoom).emit('message', data);
+            socket.emit('message', data, toRoom );
+        }else{
+            socket.emit('message', data)
+        }
+    })
     socket.on('disconnect', function () {
         console.log('client disconnect...', socket.id)
     })
