@@ -21,14 +21,24 @@ io.on('connection', function (socket) {
         console.log('joined room  ' + room)
     });
 
+
+
     socket.on('message', function (data,toRoom) {
         if (toRoom.length > 1){
-            socket.to(toRoom).emit('message', data);
-            socket.emit('message', data, toRoom );
+            socket.to(toRoom).emit('message', data)
         }else{
             socket.emit('message', data)
         }
     })
+
+    socket.on('data', function (data,toRoom) {
+        if (toRoom.length > 1){
+            socket.to(toRoom).emit('data', data)
+        }else{
+            socket.emit('data', data)
+        }
+    })
+
     socket.on('disconnect', function () {
         console.log('client disconnect...', socket.id)
     })
@@ -43,4 +53,3 @@ server.listen(port, hostname, function (err) {
     if (err) throw err
     console.log('listening on port ' + port)
 })
-

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0bf78d4-0d7b-4ad8-a1ff-cfe8cc8b0a9b" name="Default Changelist" comment="">
+    <list default="true" id="f0bf78d4-0d7b-4ad8-a1ff-cfe8cc8b0a9b" name="Default Changelist" comment="fixed socketio send">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
@@ -22,7 +22,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript_websocket_client" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,105 +53,51 @@
       <workItem from="1599410409513" duration="7781000" />
       <workItem from="1599435519530" duration="33000" />
       <workItem from="1599451068021" duration="53000" />
-      <workItem from="1599452099272" duration="12791000" />
+      <workItem from="1599452099272" duration="14126000" />
+      <workItem from="1599507709525" duration="59000" />
+      <workItem from="1599508484849" duration="1452000" />
+      <workItem from="1599516240146" duration="8818000" />
+      <workItem from="1599594996714" duration="518000" />
+      <workItem from="1599595747155" duration="6463000" />
+      <workItem from="1599627614251" duration="15000" />
+      <workItem from="1599627659908" duration="14000" />
+      <workItem from="1599628160541" duration="630000" />
+      <workItem from="1599629656049" duration="2474000" />
+      <workItem from="1599654177712" duration="603000" />
+      <workItem from="1599713235055" duration="3000" />
+      <workItem from="1599713296058" duration="8697000" />
+      <workItem from="1599941207914" duration="44000" />
+      <workItem from="1599958643656" duration="2430000" />
+      <workItem from="1599975772486" duration="458000" />
+      <workItem from="1599976683430" duration="9436000" />
+      <workItem from="1600185468825" duration="594000" />
+      <workItem from="1600194285819" duration="2428000" />
+      <workItem from="1600285771205" duration="3000" />
+      <workItem from="1600286154052" duration="3104000" />
+      <workItem from="1600354876795" duration="5826000" />
+      <workItem from="1600629744660" duration="428000" />
+      <workItem from="1600657861948" duration="1965000" />
+      <workItem from="1601166456301" duration="765000" />
+      <workItem from="1601210973457" duration="2413000" />
+      <workItem from="1601691416803" duration="1855000" />
+      <workItem from="1601694649511" duration="621000" />
+      <workItem from="1601738981365" duration="735000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed socketio send">
+      <created>1599472190378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599472190378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599464097848">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1599464097848" />
-    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1599464096364">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1599464096364" />
-    <state x="485" y="259" key="Github.ShareDialog" timestamp="1599467363662">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="485" y="259" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1599467363662" />
-    <state x="417" y="59" key="Github.UntrackedFilesDialog" timestamp="1599467382115">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="417" y="59" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1599467382115" />
-    <state width="1259" height="176" key="GridCell.Tab.0.bottom" timestamp="1599471720920">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599471720920" />
-    <state width="1259" height="176" key="GridCell.Tab.0.center" timestamp="1599471720920">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599471720920" />
-    <state width="1259" height="176" key="GridCell.Tab.0.left" timestamp="1599471720920">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599471720920" />
-    <state width="1259" height="176" key="GridCell.Tab.0.right" timestamp="1599471720920">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599471720920" />
-    <state width="1259" height="220" key="GridCell.Tab.1.bottom" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.1.center" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.1.left" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.1.right" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.2.bottom" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.2.center" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.2.left" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.2.right" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.3.bottom" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.3.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.3.center" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.3.center/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.3.left" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.3.left/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-    <state width="1259" height="220" key="GridCell.Tab.3.right" timestamp="1599465614314">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state width="1259" height="220" key="GridCell.Tab.3.right/0.0.1280.720@0.0.1280.720" timestamp="1599465614314" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server.js</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed socketio send" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed socketio send" />
   </component>
 </project>
